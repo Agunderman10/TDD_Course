@@ -54,15 +54,16 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FibonacciTestClass.cs" />
+    <Compile Include="FibonacciSequence\FibonacciTestClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="FizzBuzzTestClass.cs" />
-    <Compile Include="RomanNumeralTestClass.cs" />
+    <Compile Include="FizzBuzz\FizzBuzzTestClass.cs" />
+    <Compile Include="RomanNumerals\RomanNumeralTestClass.cs" />
     <Compile Include="TicTacToe\State.cs" />
     <Compile Include="TicTacToe\TicTacToeCode.cs" />
     <Compile Include="TicTacToe\TicTacToeTests.cs" />
     <Compile Include="TicTacToe\Winner.cs" />
-    <Compile Include="UpdateableSpinTests.cs" />
+    <Compile Include="UpdateableSpin\UpdateableSpinClass.cs" />
+    <Compile Include="UpdateableSpin\UpdateableSpinTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
